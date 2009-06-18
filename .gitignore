@@ -1,0 +1,7 @@
+*.txt
+*.dat
+.cap_tasks~
+.idea/*
+*.csv
+doc/
+

@@ -1,0 +1,9 @@
+# Production
+
+OBD_FTP_ADDRESS= "10.25.72.58"
+OBD_DIRECTORY = "Outbound_Output"
+OBD_USERNAME= "comcast"
+OBD_PASS="Comcast123"
+
+OBD_PUBLISH_DIRECTORY= "#{ENV['HOME']}/reports/obd/"
+OBD_CSV_DIRECTORY = "#{OBD_PUBLISH_DIRECTORY}/csv/"
