@@ -2,10 +2,13 @@ require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
 
+require 'config/environment'
+require 'obd_reports'
+
 task :default => :create_reports
 
 task :create_reports do
-  require 'obd_reports'
+  ObdReportRunner.run
 end
 
 Rake::TestTask.new do |t|
