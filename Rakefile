@@ -8,7 +8,7 @@ require 'obd_reports'
 task :default => :create_reports
 
 task :create_reports do
-  ObdReportRunner.run
+  OBD::ReportRunner.run
 end
 
 Rake::TestTask.new do |t|

@@ -1,7 +1,7 @@
 set :application, "obd_reports"
 set :user, "csamue4916c"
 set :obd_env, "production"
-set :gem_bin_path, "/opt/home/#{user}/.gem/ruby/1.8/bin"  #Need because cron cannot see the path env
+set :gem_bin_path, "/opt/home/#{user}/.gem/ruby/1.8/bin"  # Need because cron cannot see the PATH env
 
 set :cron_log, "/opt/home/#{user}/#{application}/shared/log/cron.log"
  
